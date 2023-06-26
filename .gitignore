@@ -1,0 +1,49 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+build/
+dist/
+
+# Ignore environment variables file
+.env
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore generated files
+*.log.*
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore npm/yarn lock files
+package-lock.json
+yarn.lock
+
+# Ignore testing and coverage files
+coverage/
+
+# Ignore production build
+# Remove this if you want to commit the production build
+public/
+
+# Ignore environment-specific config files
+# You might need to adjust this based on your specific configuration
+config/dev.js
+config/prod.js
+config/test.js
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.cache
+
+# Ignore backup files
+*~
